@@ -1,0 +1,49 @@
+body {
+    padding: 0;
+    background-color: #607d8b;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans";
+  }
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  ul {
+    list-style-type: square;
+    color: #212121;
+  }
+  .data1 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .data2,
+  .data3,
+  .data4 {
+    width: 300px;
+    height: 100px;
+    margin: auto;
+  }
+  .share {
+    width: 400px;
+    height: 50px;
+    list-style-type: none;
+    justify-content: space-around;
+    display: flex;
+    margin: auto;
+    margin-bottom: 5px;
+  }
+  .log1,
+  .log2,
+  .log3,
+  .log4 {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  img {
+    width: 50px;
+    height: 50px;
+  }
